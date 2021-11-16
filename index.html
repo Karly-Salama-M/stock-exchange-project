@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="logo">Stock Exchange</h2>
+            <a href="./index.html" class="menu"> HOME</a>
+        </div>
+        <div class="marquee-wrapper" id="marqueeWrapper">
+            <div class="marquee-content" id="marqueeContent">
+
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-wrapper" id="searchWrapper">
+                <div class="search-details">
+                    <h2 class="search-main-title">Search Nasdaq Stocks</h2>
+                    <p class="search-description">This is the best place to find all the information you need. <br>Take a look at the company details, stock price, history, and more...</p>
+                </div>
+                <input type="text" placeholder="" name="search" id="userInput">
+                
+                <div class="search-button" id="searchButton">
+                    <p>Search</p>
+                </div>
+                <div id="companies-list" class="companies-list">
+               
+                </div>
+                <div class="loader-container">
+                    <div class="loading-spinner" id="loadingSpinner"></div>
+                </div>        
+            </div>
+                
+        </div>
+    </div>
+    <script src="./js/marquee.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

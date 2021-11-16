@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="logo">Stock Exchange</h2>
+            <a href="../index.html" class="menu"> HOME</a>
+        </div>
+        <div class="company-info-wrapper" id="companyWrapper">
+            <div class="company-main-info">
+                <img id="companyImage" onerror="imgError()" class="company-site-image">
+                
+                <h3 class="company-name" id="companyName"></h3>
+                <div id=companySymbol></div>
+                <a href="" id="companyWebsite">Company's Website</a>
+                
+                <p>Stock Price: </p>
+                <div id="stockPrice"></div>
+                <div id="percentages" class="positive negative no-change"></div>
+            </div>
+
+            <div class="left-column">
+                <div class="company-description" id="companyDescription"></div>
+        </div>
+            <div class="chart-wrapper">
+                <div>
+                    <canvas id="myChart" class="my-chart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="../js/company.js"></script>
+
+</body>
+</html>
