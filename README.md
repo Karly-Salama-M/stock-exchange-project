@@ -31,9 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/Karly-Salama-M/add-notes-project/blob/main/public/img/add_note_project_screen.png)
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/home_desktop_view.png)
 
-![](https://github.com/Karly-Salama-M/add-notes-project/blob/main/public/img/add_note_project_screen_modal.png)
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/home_mobile_view.png)
+
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/profile_desktop_view.png)
+
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/profile_mobile_view.png.png)
 
 ### My Process
 
@@ -41,8 +45,8 @@ asjalksjla
 
 ### Links
 
-- Live Site URL: [React Note App Project](https://modest-shannon-784c80.netlify.app/)
-- Check out my code: [Code Source](https://github.com/Karly-Salama-M/add-notes-project)
+- Live Site URL: [Stock Exchange Project](https://pensive-newton-394f3d.netlify.app/)
+- Check out my code: [Code Source](https://github.com/Karly-Salama-M/stock-exchange-project)
 
 ### Built with
 
