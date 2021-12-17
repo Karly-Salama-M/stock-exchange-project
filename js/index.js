@@ -1,12 +1,6 @@
-
 let userInput = document.querySelector('#userInput');
-
-// const symbol = "AA";
-
 const searchButton = document.getElementById("searchButton");
-
 const loader = document.querySelector(".loading-spinner");
-
 
 //reference: https://dev.to/vaishnavme/displaying-loading-animation-on-fetch-api-calls-1e5m
 //showing loader
@@ -21,8 +15,6 @@ function displayLoading() {
 function hideLoading() {
   loader.classList.remove("display");
 }
-
-
 
 
 const getList = () => {
@@ -67,10 +59,6 @@ fetch(url)
   hideLoading();
 }));
 };
-
-
-
-
 
 searchButton.addEventListener("click", getList);
 

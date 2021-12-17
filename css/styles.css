@@ -24,7 +24,7 @@ body {
 h2.logo {
     font-family: Raleway;
     font-weight: 800;
-    color: teal;
+    color: #066beb;
     margin-left: 20px;
     align-self: center;
 }
@@ -36,9 +36,8 @@ margin-left: 50px;
 }
 
 a.menu:hover {
-    color: teal;
+    color: #066beb;
 }
-
 
 .search-details {
     text-align: center;
@@ -47,7 +46,7 @@ a.menu:hover {
 
 h2.search-main-title {
 
-    color: teal;
+    color: #066beb;
     font-size: 2.5rem;
 }
 
@@ -84,7 +83,7 @@ h2.search-main-title {
     /* Apply animation to this element */	
     /* -moz-animation: marquee-content 15s linear infinite;
     -webkit-animation: marquee-content 15s linear infinite; */
-    animation: marquee-content 40s linear infinite;
+    animation: marquee-content 50s linear infinite;
 }
 
 @-moz-keyframes marquee-content {
@@ -117,10 +116,6 @@ h2.search-main-title {
        color: greenyellow;
    }
 
-   
-
-
-
 
 /* SEARCH BAR */
 .search-container {
@@ -143,7 +138,7 @@ input#userInput {
 }
 .search-button {
     width: 20%;
-    background-color: teal;
+    background-color: #066beb;
     color: white;
     border-radius: 0 5px 5px 0;
     display: flex;
@@ -152,13 +147,13 @@ input#userInput {
 }
 .search-button:hover {
     background-color: #efefef;
-    color: teal;
+    color: #066beb;
     cursor: pointer;
     font-size: 18px;
 }
 
 .search-button p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 div.companies-list {
@@ -181,7 +176,7 @@ a.listlink {
 
 a.listlink:hover {
     background-color: #f0f0f0;
-    color: teal;
+    color: #066beb;
 }
 
 #indexPercentages {
@@ -199,7 +194,7 @@ a.listlink:hover {
     width: 40px;
     height: 40px;
     border: 4px solid transparent;
-    border-top-color: teal;
+    border-top-color: #066beb;
     border-radius: 50%;
     animation: loading-spinner 1s linear infinite;
     visibility: hidden;
@@ -240,7 +235,7 @@ a.listlink:hover {
 .company-name {
     font-size: 22px;
     margin: 10px 0px;
-    color: teal;
+    color: #066beb;
 }
 
 .list-item-company-image {
@@ -310,14 +305,11 @@ a.listlink:hover {
 }
 
 
-
 /* Desktop styles */
 /* Desktop styles */
 /* Desktop styles */
 /* Desktop styles */
 @media only screen and (min-width: 480px) {
-
-
 
     .container {
         width: 100%;
@@ -327,9 +319,9 @@ a.listlink:hover {
         width: 60%;
     }
 
-    /* .chart-wrapper {
-        width: 60%;
-    } */
+    .search-button p {
+        font-size: 18px;
+    }
 
     .company-info-wrapper{
         display: flex;

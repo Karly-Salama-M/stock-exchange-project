@@ -1,12 +1,6 @@
-
-// console.log(window.location.search.replace("?symbol=", ""))
-
-
 const titleText = window.location.search.replace("?symbol=", "");
 
 const url = "https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/company/profile/" + titleText;
-
-// console.log(url);
 
 let imageCompany = document.getElementById("companyImage");
 const companySymbol = document.getElementById("companySymbol");
