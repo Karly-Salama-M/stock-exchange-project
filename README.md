@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/home_desktop_view.png)
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/mobile_view.jpg)
 
-![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/home_mobile_view.png)
+![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/home_desktop_view.png)
 
 ![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/profile_desktop_view.png)
 
-![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/profile_mobile_view.png.png)
+
 
 ### My Process
 
