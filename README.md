@@ -38,11 +38,6 @@ Users should be able to:
 ![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/profile_desktop_view.png)
 
 
-
-### My Process
-
-asjalksjla
-
 ### Links
 
 - Live Site URL: [Stock Exchange Project](https://pensive-newton-394f3d.netlify.app/)
