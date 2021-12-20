@@ -11,7 +11,6 @@ All the information changes dinamically.
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [My Process](#my-process)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
