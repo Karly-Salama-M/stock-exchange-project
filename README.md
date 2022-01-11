@@ -1,6 +1,6 @@
 # Stock Exchange Project
 
-Multipage stock exchange data website. This project is based on Financial Modeling Prep - [FinancialModelingPrep](https://site.financialmodelingprep.com/)
+Multipage stock exchange data website. This project is based on [FinancialModelingPrep](https://site.financialmodelingprep.com/)
 
 In this project we used a custom server for communicating with the API.
 
